@@ -1,7 +1,7 @@
 Summary:	Library integrating clutter with GTK+
 Name:		clutter-gtk
 Version:	1.4.4
-Release:	2
+Release:	3
 License:	LGPL v2+
 Group:		X11/Libraries
 Source0:	http://download.gnome.org/sources/clutter-gtk/1.4/%{name}-%{version}.tar.xz
@@ -74,7 +74,6 @@ rm -rf $RPM_BUILD_ROOT
 %files devel
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_libdir}/libclutter-gtk-1.0.so
-%{_libdir}/libclutter-gtk-1.0.la
 %{_includedir}/clutter-gtk-1.0
 %{_pkgconfigdir}/clutter-gtk-1.0.pc
 %{_datadir}/gir-1.0/GtkClutter-1.0.gir
